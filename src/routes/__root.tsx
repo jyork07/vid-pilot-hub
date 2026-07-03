@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "TrendClip — Autopilot Shorts Dashboard" },
-      { name: "description", content: "TrendClip control room: discover trending shorts, run the pipeline, and auto-upload to YouTube from a single dashboard." },
+      { title: "TrendClip — Dashboard" },
+      { name: "description", content: "Live control room for TrendClip: jobs, autopilot, video library and settings." },
       { name: "author", content: "TrendClip" },
-      { property: "og:title", content: "TrendClip — Autopilot Shorts Dashboard" },
-      { property: "og:description", content: "Discover, remix and auto-upload trending YouTube shorts on autopilot." },
+      { property: "og:title", content: "TrendClip — Dashboard" },
+      { property: "og:description", content: "Live control room for TrendClip: jobs, autopilot, video library and settings." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "TrendClip — Dashboard" },
+      { name: "twitter:description", content: "Live control room for TrendClip: jobs, autopilot, video library and settings." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bddcd53a-e242-44d1-8b52-87f2bf82a83a/id-preview-e8d5289f--789e1874-a040-44cf-90f8-eae38e146090.lovable.app-1783105773500.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/bddcd53a-e242-44d1-8b52-87f2bf82a83a/id-preview-e8d5289f--789e1874-a040-44cf-90f8-eae38e146090.lovable.app-1783105773500.png" },
     ],
     links: [
       {
